@@ -1,0 +1,52 @@
+body{
+    background-color: khaki;
+}
+
+#img_meme{
+    margin-left: 0px;
+    width: 10%;
+    height:20%;
+    margin-top: 0px;
+    position: relative;
+}
+
+/* codigo do cabecalho*/
+li{
+    float:left;
+    border-right:2px solid
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:rgb(136, 136, 107);
+  }
+  .menu {
+    background-color:gold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+#formulario{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#cad{
+  font-family: 'Courier New', Courier, monospace;
+}
+

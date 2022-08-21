@@ -1,0 +1,70 @@
+body{
+    background-color:khaki;
+}
+
+#titulo{
+    background-color: lightgoldenrodyellow;
+    position:relative;
+    margin-right:30%;
+    text-align: justify;
+    margin-top: 2%;
+    border:solid;
+}
+
+#img_meme{
+  margin-left: 0px;
+  width: 10%;
+  height:20%;
+  margin-top: 0px;
+  position: relative;
+} 
+
+/* codigo do cabecalho*/
+li{
+    float:left;
+    border-right:2px solid
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color:rgb(136, 136, 107);
+  }
+  .menu {
+    background-color:gold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  #baloes{
+    height:15%;
+    width:10%;
+    margin-left: 80%;
+    position: relative;
+    margin-top: -10%;
+  }
+
+  #sobre{
+    margin-left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #texto{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }

@@ -1,0 +1,117 @@
+body{
+    background-color: khaki;
+}
+
+#tituloprincipal{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#img_meme{
+    margin-left: 0px;
+    width: 10%;
+    height:20%;
+    margin-top: -140px;
+    position: relative;
+} 
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+/* codigo do cabecalho*/
+li{
+    float:left;
+    border-right:2px solid
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:rgb(136, 136, 107);
+  }
+  .menu {
+    background-color:gold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+#memeLista{
+    background-color:rgb(238, 198, 99);
+    width: 60%;
+    margin-left: 2%;
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+}
+
+#propaganda{
+  background-color:rgb(238, 198, 99);
+  width: 30%;
+  height: 100%;
+  margin-left: 65%;
+  margin-top: 20px;
+  position:absolute;
+}
+
+#dest{
+    text-align: center;
+    font-size: 43px;
+    margin-left:6% ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#meme1{
+  height: 550px;
+  width: 600px;
+  margin-left: 5%; 
+  position: relative;
+}
+
+#meme2{
+  height: 550px;
+  width: 600px;
+  margin-left: 5%; 
+  margin-top: 25px;
+  position: relative;
+}
+
+#video{
+  margin-left:3%;
+  width:400px;
+  height: 400px;
+  margin-top: 0px;
+  margin-left: 6%;
+  position: absolute;
+  
+}
+
+#tituloprop{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#slogan{
+  text-align: center;
+  margin-top: 475px;
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
