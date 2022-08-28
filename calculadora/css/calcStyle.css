@@ -1,0 +1,89 @@
+#titulo{
+    font-size: 50px;
+    text-align: center;
+    color:darkslategray;
+    margin: solid;
+}
+
+.botao{
+    background-color:bisque;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin:1px;
+}
+ .botao:hover{
+    background-image: linear-gradient(to bottom, #e3ee89, #e0e175, #ded462, #ddc750, #dbb93d, #e1ad36, #e6a032, #eb9331, #f58540, #fb7650, #fd6962, #fb5f74);
+}
+
+#zero:hover{
+    background-image: linear-gradient(to bottom, #e3ee89, #e0e175, #ded462, #ddc750, #dbb93d, #e1ad36, #e6a032, #eb9331, #f58540, #fb7650, #fd6962, #fb5f74);
+}
+
+#ce:hover{
+    background-image: linear-gradient(to bottom, #e3ee89, #e0e175, #ded462, #ddc750, #dbb93d, #e1ad36, #e6a032, #eb9331, #f58540, #fb7650, #fd6962, #fb5f74);
+}
+
+#back:hover{
+    background-image: linear-gradient(to bottom, #e3ee89, #e0e175, #ded462, #ddc750, #dbb93d, #e1ad36, #e6a032, #eb9331, #f58540, #fb7650, #fd6962, #fb5f74);
+}
+
+body{
+    /* background-image: linear-gradient(to right top, #20ec21, #73ed1c, #9fed24, #c1ec33, #ddec46, #f0d643, #fbc14a, #ffad56, #ff7f69, #ff5596, #dc4ece, #5f66fb); */
+    background-image: linear-gradient(to bottom, #ff0000, #ec5e00, #d28600, #b5a400, #96bc00, #92c600, #8dd100, #86db00, #a8dc00, #c7dc00, #e4dc00, #ffdb00);
+}
+
+html{
+    height: 100%;
+}
+
+#tela{
+    width:206px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin: 4px;
+    margin-left:1.8%;
+    text-align: right;
+    background-color:white;
+    border:solid;
+}
+
+#moldura{
+    background-color:chocolate;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 5px;
+    padding: 20px;
+    border:solid;
+}
+
+#zero{
+    background-color:bisque;
+    height: 50px;
+    width: 106px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin:1px;
+}
+
+#ce{
+    background-color:bisque;
+    height: 50px;
+    width: 106px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin:1px;
+}
+
+#back{
+    background-color:bisque;
+    height: 50px;
+    width: 106px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin:1px;
+}

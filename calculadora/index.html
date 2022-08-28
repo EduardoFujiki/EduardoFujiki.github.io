@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script type="text/javascript" charset="utf-8" src="calculadora.js"></script>
+    
+        <link rel="stylesheet" href="css/calcStyle.css">
+        <title>Calculadora</title>
+    </head>
+    <body onload="onLoad()">   
+        <h1 id = "titulo">Calculadora</h1>    
+        <div id="moldura">
+                <form name="calculadora">
+                    <div >
+                        <input id="tela" type="text" name="visor" disabled></input></br>
+                    </div>
+                    <input id = "ce" type="button" name="identificador" value="CE"  onclick ="limpaTela()"></input>
+                    <input id = "back" type="button" name="identificador" value="Back"  onclick ="apagaCaractere()"></input> <br>
+                    <!-- <input class = "botao" type="button" name="identificador" value="."  onclick ="onclick(value)"></input> <br> -->
+                    <input class = "botao" type="button" name="identificador" value="7"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="8"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="9"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="+"  onclick ="onClick(value)"></input> <br>  
+                    <input class = "botao" type="button" name="identificador" value="4"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="5"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="6"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="÷"  onclick ="onClick('/')"></input> <br>
+                    <input class = "botao" type="button" name="identificador" value="1"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="2"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="3"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="x"  onclick ="onClick('*')"></input> <br>
+                    <input id = "zero" type="button" name="identificador" value="0"  onclick ="onClick(value)"></input>
+                    <input class = "botao" type="button" name="identificador" value="="  onclick ="calcular()"></input>
+                    <input class = "botao" type="button" name="identificador" value="-"  onclick ="onClick(value)"></input> 
+                </form>
+            </div>
+            
+        
+    </body>
+</html>
