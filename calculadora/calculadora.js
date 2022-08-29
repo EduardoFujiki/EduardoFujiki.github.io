@@ -93,8 +93,6 @@ function onClick(button) {
         }
     }
 
-
-
     //condicao  que garante que operadores de divisão, multiplicação e adição nao possam ser digitados no inicio
     if(document.calculadora.visor.value == '*'){
         limpaTela();
