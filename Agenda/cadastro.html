@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastroStyle.css">
+    <script type="text/javascript" charset="utf-8" src="agenda.js"></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="campoCadastro">
+        <form onsubmit="return false;">
+            <div id="campoField">
+                <fieldset>
+                    <legend><b>Adicionar contato</b></legend>
+                        <div id="campoID">
+                            <p>
+                                ID: <br>
+                                <input type="text" id="id" size="30" maxlength="4">
+                            </p>
+                        </div>    
+                        <div id="campoNome">
+                            <p>
+                                Nome: <br>
+                                <input type="text" id="nome" size="30" maxlength="30">
+                            </p>
+                        </div>
+                        <div id="campoTel">
+                            <p>
+                                Telefone: <br>
+                                <input type="text" id="tel" size="30" maxlength="9">
+                            </p>
+                        </div>
+                        <div id="campoBotao">
+                            <button class="button" onclick = "cadastrar()">Adicionar</button>
+                            <button class="button" onclick = "remover()">Remover</button>
+                            <button class="button" onclick = "buscar()">Buscar</button>
+                        </div>                     
+                        
+                        <!-- teste de remocao -->
+                        <p>
+                            Teste para ver se adicionar e remover estao funcionando no javaScript<br>
+                            Remover:
+                            <input type="text" id="removeNome" size="30" maxlength="30">
+                        </p>
+                        <p>
+                            Buscar:
+                            <input type="text" id="buscaNome" size="30" maxlength="30">
+                        </p>
+                        
+                        </div>
+                        <!--  -->
+                </fieldset>
+            </div>
+            
+        </form>
+    </div>
+    
+    <a id="menu" href="index.html">Menu principal</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #de00f3, #ff00b9, #ff007e, #ff0047, #ff0404);
+}
+
+.button{
+    list-style-type: none;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #053537, #006355, #00925d, #45c14c, #a8eb12);
+    width: 8%;
+    border-radius: 5px;    
+    display: block;
+    color: white; 
+    font-size: 12px;
+    padding: 8px 14px;
+    border: solid rgb(0, 0, 0);
+    margin:auto;
+}

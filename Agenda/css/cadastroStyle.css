@@ -1,0 +1,89 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #de00f3, #ff00b9, #ff007e, #ff0047, #ff0404);
+}
+
+legend{
+    font-size: 40px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#campoCadastro{
+    /* background-color: #ebcc12; */
+    margin-top: 5%;
+   
+}
+
+#campoField{
+    /* background-color: aquamarine; */
+    width: 80%;
+    margin:auto;
+}
+
+#campoID{
+    /* background-color: rgb(219, 206, 206); */
+    text-align: center;
+    width: 100%;
+    
+}
+
+#campoNome{
+    /* background-color: blue; */
+    text-align: center;
+    width: 100%;
+}
+
+#campoTel{
+    /* background-color: chartreuse; */
+    text-align: center;
+    width: 100%;
+}
+
+#campoBotao{
+    /* background-color: #ff007e; */
+    width: 100%;
+}
+
+.button{
+    list-style-type: none;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #053537, #006355, #00925d, #45c14c, #a8eb12);
+    width: 8%;
+    border-radius: 5px;    
+    display: block;
+    color: white; 
+    font-size: 12px;
+    padding: 8px 14px;
+    border: solid rgb(0, 0, 0);
+    margin:auto;
+}
+
+.button:hover{
+    background-color: rgb(206, 36, 36);
+}
+
+#menu{
+    list-style-type: none;
+    margin:auto;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #ec14d6, #ff0092, #ff5b54, #ff9a1c, #ebcc12);
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 2%;
+    display: block;
+    color: white; 
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border: solid rgb(0, 0, 0);
+}
+
+#menu:hover{
+    background-color: rgb(210, 208, 208);
+}
+
