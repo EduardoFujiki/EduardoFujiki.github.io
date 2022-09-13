@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/indexStyle.css">
+    <script type="text/javascript" defer charset="utf-8" src="estacionamento.js"></script>
+    <script type="text/javascript" defer charset="utf-8" src="interfaceUsuario.js"></script>
+    
+    <title>Estacionamento</title>
+</head>
+<body>
+    <!--Tabela de preços-->
+    <h1><b>Estacionamento do Japinha</b></h1>
+    <div id="tab">
+        <table id="tabela_precos">
+            <tr>
+                <th>Carro</th>
+                <th>Moto</th>
+            </tr>
+            <tr>
+                <td>Até 15 min - grátis</td>
+                <td>Até 30 min - grátis</td>
+            </tr>
+            <tr>
+                <td>1 hora - 4,00 reais</td>
+                <td>1 hora - 2,00 reais </td>
+            </tr>
+            <tr>
+                <td>Acima de 4 hora - 20,00 reais</td>
+                <td>Acima de 4 hora - 10,00 reais </td>
+            </tr>
+        </table>
+    </div>
+    <!--Botoes que o usuario vai interagir-->
+    <div id="divBotao">
+            <button id="abrirModal" class="botao">Estacionar</button> <!--vai ser o meu botao de abrir o modal -->
+            <button class="botao">Relatorio</button>
+            <!-- <p>ID:</p>
+            <input onsubmit="return false;" type="text" id="remove" size="30" maxlength="30"> -->
+            <button class="botao" onclick="remove()">Liberar</button>
+            
+    </div>
+    <!--Modal para o cadastro dos carros que vao estacionar-->
+    <div id="modal" class="hide">
+        <div id="modal-header">
+            <h2>Cadastro</h2>
+        </div>
+                    <div id="corpoModal">
+                        <form onsubmit="return false;">
+                            <p>
+                                Veiculo: <br>
+                                <input type="radio" id="carro" name="veiculo" class="inputCad" onclick="validaCampoCarro()"><label>Carro</label>
+                                <input type="radio" id="moto" name="veiculo" class="inputCad" onclick ="validaCampoMoto()"><label>Moto</label>
+                            </p>
+                            <p>
+                                Nome do proprietário <br>
+                                <input type="text" id="nomeProp" class="inputCad" type="text" size="30" maxlength="30">
+                            </p>
+                            <p>
+                                ID: <br>
+                                <input type="text" id="id" class="inputCad"  size="30" maxlength="4">
+                            </p>
+                            <p id="numeroPorta">
+                                Numero de portas: <br>
+                                <input type="text" id="porta" class="inputCad"  size="30" maxlength="1">
+                                </p>
+                            <p>
+                            <p>
+                                Marca: <br>
+                                <input type="text" id="marca" class="inputCad"  size="30" maxlength="30">
+                                </p>
+                            <p>
+                                Placa: <br>
+                                <input type="text" id="placa" class="inputCad"  size="30" maxlength="30">
+                            </p>
+                            <p>
+                                Cor: <br>
+                                <input type="text" id="cor" class="inputCad"  size="30" maxlength="30">
+                            </p>
+                            
+                                <button class="botao" onclick="cadastro()">Confirmar</button>
+                                <button id="fecharModal" class="botao">Fechar</button>
+                        </form>
+                    </div>
+    </div>
+    <!--Lista dos veiculos estacionados-->
+    <div id="listaVeiculos">
+        <div id="listaCarro">
+            <h3 style="text-align:center">Carros</h3>
+                <table>
+                    <thead id="thead">
+                        <th>ID</th>
+                        <th>Placa</th>
+                        <th>Marca</th>
+                        <th>Cor</th>
+                        <th>Proprietario</th>
+                        <th>Portas</th>
+                    </thead>
+                    <tbody id="tbody">
+                
+                    </tbody>
+                </table>
+        </div>
+        <div id="listaMoto">
+            <h3 style="text-align:center">Motos</h3>
+                <table>
+                    <thead id="thead2">
+                        <th>ID</th>
+                        <th>Placa</th>
+                        <th>Marca</th>
+                        <th>Cor</th>
+                        <th>Proprietario</th>
+                    </thead>
+                    <tbody id="tbody2">
+                
+                    </tbody>
+                </table>
+        </div>
+                
+    </div>
+   
+</body>
+</html>
