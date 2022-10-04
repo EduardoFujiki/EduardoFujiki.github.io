@@ -147,14 +147,14 @@ function telaInicial(){ //seta as posiçoes iniciais dos desenhos ao abrir a pag
 }
 
 function iniciaPartida(){
-    console.log(xb);
-    console.log(yb);
-    console.log(xVel);
-    console.log(yVel);
-    // setInterval(player1, 0);
-    // setInterval(player2, 0);
-    // setInterval(bola, 0);
-    // setInterval(pontuação, 0);
+    // console.log(xb);
+    // console.log(yb);
+    // console.log(xVel);
+    // console.log(yVel);
+    setInterval(player1, 0);
+    setInterval(player2, 0);
+    setInterval(bola, 0);
+    setInterval(pontuação, 0);
 }
 
 function posicionarBola(){
