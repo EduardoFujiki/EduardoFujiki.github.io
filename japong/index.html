@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jogo.css">
+    <title>Document</title>
+</head>
+<body onkeydown="OnKeyDown(event)" onkeyup="OnKeyUp(event)">
+    <div id="titulo">
+        <h1>Japong</h1>
+    </div>
+    <img id="bolinha" width="0" height="0" src="https://cdn.pixabay.com/photo/2014/04/03/10/11/soccer-ball-310065_960_720.png">
+    <div id="campoJogo">
+        <div id="placar">
+            <table id="tabela">
+                <thead id="thead2">
+                    <th>Player 1</th>
+                    <th>Player 2</th>
+                </thead>
+                <tbody id="valores">
+            
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <canvas id="meucanvas" width="800" height="400"></canvas>
+        </div>
+        <div>
+            <button id="botaoJogar" class="botao" onclick="iniciaPartida()">Jogar</button>
+            <button id="botaoParar" class="botao" onclick="finalizaJogo()">Parar</button>
+        </div>
+    </div>
+    
+    <script src="jogo.js"></script>
+    
+</body>
+
+</html>

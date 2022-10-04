@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(to top, #e6de09, #e6e451, #e7e87b, #e9eda0, #ecf0c3);
+}
+
+html{
+    height: 100%;
+}
+
+#campoJogo{
+    text-align: center;
+}
+
+#placar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#meucanvas{
+    border:3px solid rgb(0, 0, 0);
+    background-color: rgb(69, 116, 79);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 25px;
+}
+
+.botao{
+    cursor:pointer;
+    border-radius: 5px;
+    background-color: khaki;
+    font-size: 20px;
+}
+
+.botao:hover{
+    background-color: #dbd366;
+}
+
